@@ -1,0 +1,24 @@
+{
+  "name": "projectonmaca",
+  "version": "1.0.0",
+  "description": "Project Onmaca siswa",
+  "main": "assets/sass/mystyles.scss",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url assets/sass/mystyles.scss assets/css/bulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Bio abidzar",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "bulma-extensions": "^4.0.0",
+    "bulma-modal-fx": "^1.1.1"
+  }
+}

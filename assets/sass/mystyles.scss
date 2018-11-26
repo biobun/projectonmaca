@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+// Set your brand colors
+$navbarColor: #3B8BEB;
+$navbarpColor: #091E42;
+
+// Update Bulma's global variables
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$navbar_height: 3.25rem;
+// $navbar-background-color: $navbarColor;
+$navbar-item-hover-background-color: $navbarColor;
+$navbar-item-color: #C1C7D0;
+$dropdown-item-color: $yellow;
+$navbar-dropdown: $blue;
+$navbar-dropdown-item-hover-color: $navbarpColor;
+$navbar-dropdown-item-active-color: $navbarpColor;
+$navbar-dropdown-arrow: $white;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/elements/icon.sass";
+@import "../../node_modules/bulma/sass/elements/form.sass";
