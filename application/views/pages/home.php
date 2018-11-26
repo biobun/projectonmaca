@@ -8,7 +8,7 @@
             </ul>
         </nav>
     </div>
-    <h1 class="title is-1">Sedang dibaca</h1>
+    <h1 class="title is-3">Sedang dibaca</h1>
     <hr class="line">
     <div class="columns is-multiline is-mobile">
         <div class="column is-one-fifth-desktop is-half-mobile">
@@ -24,7 +24,7 @@
         <div class="column is-one-fifth-desktop is-half-mobile"></div>
         <div class="column is-one-fifth-desktop is-half-mobile"></div>
     </div>
-    <h1 class="title is-1">Akan dibaca</h1>
+    <h1 class="title is-3">Akan dibaca</h1>
     <hr class="line">
     <div class="columns is-multiline is-mobile">
         <div class="column is-one-fifth-desktop is-half-mobile">
@@ -40,7 +40,7 @@
         <div class="column is-one-fifth-desktop is-half-mobile"></div>
         <div class="column is-one-fifth-desktop is-half-mobile"></div>
     </div>
-    <h1 class="title is-1">Sudah dibaca</h1>
+    <h1 class="title is-3">Sudah dibaca</h1>
     <hr class="line">
     <div class="columns is-multiline is-mobile">
         <div class="column is-one-fifth-desktop is-half-mobile">

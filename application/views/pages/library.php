@@ -9,7 +9,7 @@
         </nav>
     </div>
     <div class="is-hidden-desktop">
-        <h1 class="title is-1">Perpustakaan</h1>
+        <h1 class="title is-3">Perpustakaan</h1>
         <hr class="line">
         <div class="columns">
             <div class="column">
