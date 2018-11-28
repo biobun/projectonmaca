@@ -9,11 +9,11 @@
         </nav>
     </div>
     <div class="is-hidden-desktop">
-        <h1 class="title is-3">Perpustakaan</h1>
+        <h1 class="title is-size-3">Perpustakaan</h1>
         <hr class="line">
         <div class="columns">
             <div class="column">
-            <h6 class="title is-6">Mata pelajaran</h6>
+            <h6 class="title is-size-6">Mata pelajaran</h6>
                 <div class='carousel carousel-animated carousel-animate-slide' data-size="5">
                 <div class='carousel-container has-text-centered'>
                     <div class='carousel-item'>
@@ -59,8 +59,8 @@
     </div>
     <div class="columns">
     	<div class="column is-one-quarter is-hidden-mobile">
-    		<h5 class="title is-5">Filter</h5>
-    		<p class="subtitle is-6">Mata pelajaran</p>
+    		<h5 class="title is-size-5">Filter</h5>
+    		<p class="subtitle is-size-6">Mata pelajaran</p>
     		<div class="columns is-multiline">
 		    	<div class="column is-half">
     				<nav class="level">
@@ -139,68 +139,68 @@
     			</div>
     		</div>
     		<div class="columns is-multiline is-mobile">
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
                     <a href="<?php echo site_url('/detail') ?>">
     				<figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/8.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
     				<a href="<?php echo site_url('/detail') ?>">
                     <figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/10.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
     				<a href="<?php echo site_url('/detail') ?>">
                     <figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/8.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
     				<a href="<?php echo site_url('/detail') ?>">
                     <figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/7.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
     				<a href="<?php echo site_url('/detail') ?>">
                     <figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/9.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
     				<a href="<?php echo site_url('/detail') ?>">
                     <figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/7.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
-    			<div class="column is-one-fifth-desktop is-half-mobile">
+    			<div class="column is-one-fifth-desktop is-one-third-mobile">
     				<a href="<?php echo site_url('/detail') ?>">
                     <figure class="image is-2by3">
                			<img src="<?php echo base_url()  ?>assets/images/cover-buku/10.jpg">
             		</figure>
                     </a>
-		            <p class="title is-6">Matematika Bisnis dan Ekonomi</p>
-		            <p class="subtitle is-6">Josep Bintang Kalangi</p>
+		            <p class="title is-size-6-mobile is-size-5-desktop">Matematika Bisnis dan ...</p>
+		            <p class="subtitle is-size-7-mobile is-size-6-desktop">Josep Bintang Kalangi</p>
     			</div>
     		</div>
     	</div> 	
