@@ -8,7 +8,7 @@
             </ul>
         </nav>
     </div>
-    <div class="columns is-multiline is-mobile">
+    <div class="columns is-multiline is-mobile" style="padding-top: 30px">
         <div class="column is-one-quarter-desktop is-full-mobile">
             <figure class="image is-2by3">
                 <img src="<?php echo base_url()  ?>assets/images/cover-buku/9.jpg">

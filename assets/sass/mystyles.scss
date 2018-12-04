@@ -10,6 +10,7 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 $navbar_height: 3.25rem;
+// $size-7: 6.85rem;
 // $navbar-background-color: $navbarColor;
 $navbar-item-hover-background-color: $navbarColor;
 $navbar-item-color: #C1C7D0;
@@ -21,6 +22,7 @@ $navbar-dropdown-arrow: $white;
 $input-shadow: none;
 
 // Import only what you need from Bulma
+// @import "../../node_modules/bulma/sass/utilities/_all.sass";
 @import "../../node_modules/bulma/sass/base/_all.sass";
 @import "../../node_modules/bulma/sass/components/navbar.sass";
 @import "../../node_modules/bulma/sass/elements/icon.sass";

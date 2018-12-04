@@ -5,16 +5,16 @@
 				<div class="columns is-6">
 					<div class="column">
 						<figure class='image is-256x256 has-image-centered'>
-							<img src="<?php echo base_url()  ?>assets/images/contoh1.svg">				
+							<img src="<?php echo base_url() ?>assets/images/contoh1.svg">				
 						</figure>
 					</div>
 				</div>
 			</div>
-			<div class="column is-one-third-desktop is-fullwidth-mobile is-half-tablet" style="border: 1px #C1C7D0 solid" >
+			<div class="column is-one-third-desktop is-half-tablet is-fullwidth-mobile" style="border: 1px #C1C7D0 solid" >
 				<div class="columns is-centered">
 					<div class="column is-four-fifths">
 						<figure class="image container is-64x64" style="margin-bottom: 30px;margin-top: 30px">
-			  				<img src="https://bulma.io/images/placeholders/128x128.png">
+			  				<img src="<?php echo base_url() ?>assets/images/black-logo-siswa.png">
 						</figure>
 						<div class="content-tab" id="WebDev">
 							<div class="has-text-centered">
@@ -37,7 +37,7 @@
 								</div>
 								<div class="field">
 									<div class="control">
-			    						<a class="button is-link is-fullwidth is-medium" href="<?php echo site_url('home') ?>">Login</a>
+			    						<a class="button is-link is-fullwidth is-medium" href="<?php echo site_url('home') ?>" style="display: inline-block;">Login</a>
 			  						</div>
 								</div>
 							</form>
@@ -48,84 +48,18 @@
 							<div class="has-text-centered">
 								<h3 class="subtitle">Daftar dan bisa baca buku mata 
 								pelajaran kesukaanmu</h3>
+								<h3 class="subtitle">buat akun gratis 
+								</h3>
 							</div>
 							<hr class="line" style="margin-left: 40%">
-							<form>
-							<div class="field">
-			  					<label class="label">Nama</label>
-			  					<div class="control">
-			    					<input class="input" type="text">
-			  					</div>
+							<div class="columns is-multiline">
+								<div class="column is-full">
+									<a class="button is-large is-fullwidth is-success" style="display: inline-block;" href="<?php echo site_url('register-guru') ?>">Saya guru</a>
+								</div>
+								<div class="column is-full">
+									<a class="button is-large is-fullwidth is-link" style="display: inline-block;" href="<?php echo site_url('register-siswa') ?>">Saya siswa</a>
+								</div>
 							</div>
-							<div class="field">
-			  					<label class="label">Username</label>
-			  					<div class="control">
-			    					<input class="input" type="text">
-			  					</div>
-							</div>
-							<div class="field">
-			  					<label class="label">Password</label>
-			  					<div class="control">
-			    					<input class="input" type="password">
-			  					</div>
-							</div>
-							<div class="field">
-			  					<label class="label">Confirm Password</label>
-			  					<div class="control">
-			    					<input class="input" type="password">
-			  					</div>
-							</div>
-							<div class="field">
-								<div class="control">
-			    					<a class="button is-primary is-fullwidth is-medium" onclick="openTab(event,'formlanjut')">Lanjut</a>
-			  					</div>
-							</div>
-							<p style="padding-top: 20px">By signing up, you agree to our Terms, 
-							Data Policy and Cookies Policy.</p>
-							<p class="has-text-centered" style="padding-top: 40px;padding-bottom: 40px">Sudah punya akun? <a class="tab" onclick="openTab(event,'WebDev')">Login</a></p>
-						</div>
-						<div class="content-tab" id="formlanjut" style="display: none">
-							<div class="has-text-centered">
-								<h3 class="subtitle">Daftar dan bisa baca buku mata pelajaran kesukaanmu</h3>
-							</div>
-							<hr class="line" style="margin-left: 40%">
-							<div class="field">
-				  				<label class="label">Handphone</label>
-				  				<div class="control">
-				    				<input class="input" type="text">
-				  				</div>
-							</div>
-							<div class="field">
-				  				<label class="label">Nama ayah</label>
-				  				<div class="control">
-				    				<input class="input" type="text">
-				  				</div>
-							</div>
-							<div class="field">
-				  				<label class="label">Handphone ayah</label>
-				  				<div class="control">
-				    				<input class="input" type="password">
-				  				</div>
-							</div>
-							<div class="field">
-				  				<label class="label">Nama ibu</label>
-				  				<div class="control">
-				    				<input class="input" type="password">
-				  				</div>
-							</div>
-							<div class="field">
-				  				<label class="label">Handphone ibu</label>
-				  				<div class="control">
-				    				<input class="input" type="password">
-				  				</div>
-							</div>
-							<div class="field">
-								<div class="control">
-			    					<button class="button is-link is-fullwidth is-medium">Daftar</button>
-			  					</div>
-							</div>
-							</form>
-							<p style="padding-top: 20px">By signing up, you agree to our Terms, Data Policy and Cookies Policy.</p>
 							<p class="has-text-centered" style="padding-top: 40px;padding-bottom: 40px">Sudah punya akun? <a class="tab" onclick="openTab(event,'WebDev')">Login</a></p>
 						</div>
 					</div>

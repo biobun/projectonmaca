@@ -27,27 +27,27 @@
     <hr>
     <h5 class="title is-4">Gallery</h5>
     <div class="columns is-multiline is-mobile">
-        <div class="column">
+        <div class="column is-one-third-mobile is-one-fifth-mobile">
             <figure class="image is-4by5">
                 <img src="https://bulma.io/images/placeholders/480x640.png">
             </figure>
         </div>
-        <div class="column">
+        <div class="column is-one-third-mobile is-one-fifth-mobile">
             <figure class="image is-4by5">
                 <img src="https://bulma.io/images/placeholders/480x640.png">
             </figure>
         </div>
-        <div class="column">
+        <div class="column is-one-third-mobile is-one-fifth-mobile">
             <figure class="image is-4by5">
                 <img src="https://bulma.io/images/placeholders/480x640.png">
             </figure>
         </div>
-        <div class="column">
+        <div class="column is-one-third-mobile is-one-fifth-mobile">
             <figure class="image is-4by5">
                 <img src="https://bulma.io/images/placeholders/480x640.png">
             </figure>
         </div>
-        <div class="column">
+        <div class="column is-one-third-mobile is-one-fifth-mobile">
             <figure class="image is-4by5">
                 <img src="https://bulma.io/images/placeholders/480x640.png">
             </figure>

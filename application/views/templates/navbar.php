@@ -7,7 +7,7 @@
             </a>
             <div class="search">
                 <div class="navbar-item field">
-                    <p class="control has-icons-left">
+                    <p class="control has-icons-left search-bar">
                         <input class="input search-bar" type="search" placeholder="Cari buku mata pelajaran">
                          <span class="icon is-small is-left">
                             <i class="fas fa-search"></i>
